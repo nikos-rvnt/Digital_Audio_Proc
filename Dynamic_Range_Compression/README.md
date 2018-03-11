@@ -7,3 +7,4 @@ The basic matlab code is "Digital_Range_Compression.m", which while running it s
 
 On the other hand, "compTest.m" file and "DRC_test.m" function respectively implement a test on the functionality of the compressor giving as input a vector of different sinusoidals one after the other sampled on 44100 Hz each one with 4000 Hz and amplitudes .24, .92, .48 respectively. 
 
+Lastly, "DRC_figures.m" is just a code showing the change on the signal before and after each stage of the feed-forward side chain block compressor. 
