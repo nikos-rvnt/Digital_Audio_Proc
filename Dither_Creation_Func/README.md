@@ -1,4 +1,4 @@
-Function Generating Dither Noise to be added to a signal. 
+Function Generating Dither Noise to be added to a signal in order to reduce the effect of quantization noise. 
 
                                 y = x + d + v ,
                                 
