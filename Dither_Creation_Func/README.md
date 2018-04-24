@@ -1,8 +1,11 @@
+
+**Dither Noise Generating Function
+
 Dither Noise Generating Function to be added to a signal in order to reduce the effect of quantization noise. 
 
                                 y = x + d + v ,
                                 
-where x -> inout signal, v -> quantisation noise and d -> dither noise that gives a better noise to quant noise.
+where *x -> inout signal*, *v -> quantisation noise* and *d -> dither noise* that gives a better noise to quant noise.
                                 
 Dither can be used as added noise in order to cancel bad effects of quantisation or after tha mixing and during the master process
 to give better audible to human result.
@@ -16,7 +19,7 @@ For flag == 1 -> Rectangular pdf,
             
 E.g. calling:
 
-              dither = DitherGen(DitherFlag,LSB,npoints, InSignal) ;
+              dither = DitherGen( DitherFlag, LSB, npoints, InSignal) ;
               
 returns a dither noise signal of equal length with InSignal (which is x). LSB is calculated as :
 
